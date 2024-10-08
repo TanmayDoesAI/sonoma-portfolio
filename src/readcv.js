@@ -59,7 +59,7 @@ const cv = {
               <li>Optimized pipeline efficiency, <strong>reducing processing time by 25%</strong> to enable near real-time performance.</li>
             </ul>
           `,
-          url: '', // Add a URL if available
+          url: '', 
           attachments: [],
           id: 'onedose-internship',
         },
@@ -74,7 +74,7 @@ const cv = {
               <li>Utilized advanced LLM techniques to generate <strong>6k+ articles</strong> about different strains, enhancing website content and engagement.</li>
             </ul>
           `,
-          url: '', // Add a URL if available
+          url: '', 
           attachments: [],
           id: 'weedcom-consultant',
         },
@@ -104,7 +104,7 @@ const cv = {
               <li><strong>Delivered AI and ML sessions</strong> to a diverse audience, contributing to widespread knowledge sharing and skill enhancement.</li>
             </ul>
           `,
-          url: '', // Add a URL if available
+          url: '', 
           attachments: [],
           id: 'ju-makerspace',
         },
@@ -125,8 +125,39 @@ const cv = {
             </ul>
           `,
           url: 'https://github.com/TanmayDoesAI/anime-gan',
-          attachments: [], // Add attachments if available
+          attachments: [], 
           id: 'anime-gan',
+        },
+        {
+          heading: 'Hours I’ve Wasted',
+          year: '2023',
+          location: '',
+          description: `
+            <ul>
+              <li>Developed a fun Streamlit app to track the total hours wasted by my friend watching shows.</li>
+              <li>Used Movie DB API to fetch detailed show information and generate insights.</li>
+              <li>Created the app to provide a unique way of visualizing wasted time.</li>
+              <li>Live link: <a href="https://hoursivewasted-test.streamlit.app/">hoursivewasted-test.streamlit.app</a></li>
+            </ul>
+          `,
+          url: '',
+          attachments: [], 
+          id: 'hours-wasted',
+        },
+        {
+          heading: 'YouTube Playlist Length Calculator',
+          year: '2023',
+          location: '',
+          description: `
+            <ul>
+              <li>Designed a Streamlit app to calculate the total time required to binge-watch a YouTube playlist, allowing for speed adjustments (e.g., 3x).</li>
+              <li>Used this tool to optimize content consumption, especially for long machine learning playlists.</li>
+              <li>Live link: <a href="https://yt-playlist-length-calculator.streamlit.app/">yt-playlist-length-calculator.streamlit.app</a></li>
+            </ul>
+          `,
+          url: '',
+          attachments: [], 
+          id: 'yt-playlist-calculator',
         },
         {
           heading: 'AI Research Companion (Ongoing)',
@@ -139,8 +170,8 @@ const cv = {
               <li><strong>Designing advanced, context-sensitive question-answer modules</strong> and a robust peer review system for dynamic scholarly interaction.</li>
             </ul>
           `,
-          url: '', // Add a URL if available
-          attachments: [], // Add attachments if available
+          url: '', 
+          attachments: [], 
           id: 'ai-research-companion',
         },
       ],
@@ -155,9 +186,31 @@ const cv = {
           description: `
             <p><strong>GPA:</strong> 8.5</p>
           `,
-          url: '', // Add a URL if available
+          url: '', 
           attachments: [],
           id: 'jecrc-university',
+        },
+        {
+          heading: 'Higher Secondary (12th)',
+          year: '2021',
+          location: 'Cambridge Court High School',
+          description: `
+            <p><strong>Percentage:</strong> 87.8%</p>
+          `,
+          url: '', 
+          attachments: [],
+          id: 'higher-secondary',
+        },
+        {
+          heading: 'Senior Secondary (10th)',
+          year: '2019',
+          location: 'Cambridge Court High School',
+          description: `
+            <p><strong>Percentage:</strong> 82.2%</p>
+          `,
+          url: '', 
+          attachments: [],
+          id: 'senior-secondary',
         },
       ],
     },
