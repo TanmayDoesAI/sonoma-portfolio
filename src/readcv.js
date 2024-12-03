@@ -111,71 +111,87 @@ const cv = {
       ],
     },
     {
-      name: 'Projects',
-      items: [
-        {
-          heading: 'Anime-GAN: Exploring Generative Adversarial Networks',
-          year: '2023',
-          location: '',
-          description: `
-            <ul>
-              <li><strong>Developed and deployed a robust Flask web application</strong> utilizing DCGAN to generate anime faces, enhancing graphical content generation.</li>
-              <li><strong>Engineered a fully automated setup and hosting pipeline</strong> using Conda and Ngrok, streamlining installation and facilitating global access.</li>
-              <li><strong>Implemented a flexible training pipeline</strong> in Jupyter Notebook, allowing users to train the model on diverse datasets and tweak parameters.</li>
-            </ul>
-          `,
-          url: 'https://github.com/TanmayDoesAI/anime-gan',
-          attachments: [], 
-          id: 'anime-gan',
-        },
-        {
-          heading: 'Hours I’ve Wasted',
-          year: '2023',
-          location: '',
-          description: `
-            <ul>
-              <li>Developed a fun Streamlit app to track the total hours wasted by my friend watching shows.</li>
-              <li>Used Movie DB API to fetch detailed show information and generate insights.</li>
-              <li>Created the app to provide a unique way of visualizing wasted time.</li>
-              <li>Live link: <a href="https://hoursivewasted-test.streamlit.app/">hoursivewasted-test.streamlit.app</a></li>
-            </ul>
-          `,
-          url: '',
-          attachments: [], 
-          id: 'hours-wasted',
-        },
-        {
-          heading: 'YouTube Playlist Length Calculator',
-          year: '2023',
-          location: '',
-          description: `
-            <ul>
-              <li>Designed a Streamlit app to calculate the total time required to binge-watch a YouTube playlist, allowing for speed adjustments (e.g., 3x).</li>
-              <li>Used this tool to optimize content consumption, especially for long machine learning playlists.</li>
-              <li>Live link: <a href="https://yt-playlist-length-calculator.streamlit.app/">yt-playlist-length-calculator.streamlit.app</a></li>
-            </ul>
-          `,
-          url: '',
-          attachments: [], 
-          id: 'yt-playlist-calculator',
-        },
-        {
-          heading: 'AI Research Companion (Ongoing)',
-          year: '2023',
-          location: '',
-          description: `
-            <ul>
-              <li><strong>Leading the end-to-end development of an AI-powered research tool</strong>, integrating Large Language Models to enhance academic research.</li>
-              <li><strong>Innovating with seamless PDF reader and audio conversion integrations</strong> to ensure accessibility and boost academic productivity.</li>
-              <li><strong>Designing advanced, context-sensitive question-answer modules</strong> and a robust peer review system for dynamic scholarly interaction.</li>
-            </ul>
-          `,
-          url: '', 
-          attachments: [], 
-          id: 'ai-research-companion',
-        },
-      ],
+  name: 'Projects',
+  items: [
+    {
+      heading: 'Anime-GAN: Exploring Generative Adversarial Networks',
+      year: '2023',
+      location: '',
+      description: `
+        <ul>
+          <li><strong>Developed and deployed a robust Flask web application</strong> utilizing DCGAN to generate anime faces, enhancing graphical content generation.</li>
+          <li><strong>Engineered a fully automated setup and hosting pipeline</strong> using Conda and Ngrok, streamlining installation and facilitating global access.</li>
+          <li><strong>Implemented a flexible training pipeline</strong> in Jupyter Notebook, allowing users to train the model on diverse datasets and tweak parameters.</li>
+        </ul>
+      `,
+      url: 'https://github.com/TanmayDoesAI/anime-gan',
+      attachments: [], 
+      id: 'anime-gan',
     },
+    {
+      heading: 'Hours I’ve Wasted',
+      year: '2023',
+      location: '',
+      description: `
+        <ul>
+          <li>Developed a fun Streamlit app to track the total hours wasted by my friend watching shows.</li>
+          <li>Used Movie DB API to fetch detailed show information and generate insights.</li>
+          <li>Created the app to provide a unique way of visualizing wasted time.</li>
+          <li>Live link: <a href="https://hoursivewasted-test.streamlit.app/">hoursivewasted-test.streamlit.app</a></li>
+        </ul>
+      `,
+      url: 'https://hoursivewasted-test.streamlit.app/',
+      attachments: [], 
+      id: 'hours-wasted',
+    },
+    {
+      heading: 'YouTube Playlist Length Calculator',
+      year: '2023',
+      location: '',
+      description: `
+        <ul>
+          <li>Designed a Streamlit app to calculate the total time required to binge-watch a YouTube playlist, allowing for speed adjustments (e.g., 3x).</li>
+          <li>Used this tool to optimize content consumption, especially for long machine learning playlists.</li>
+          <li>Live link: <a href="https://yt-playlist-length-calculator.streamlit.app/">yt-playlist-length-calculator.streamlit.app</a></li>
+        </ul>
+      `,
+      url: 'https://yt-playlist-length-calculator.streamlit.app/',
+      attachments: [], 
+      id: 'yt-playlist-calculator',
+    },
+    {
+      heading: 'AI Research Companion',
+      year: '',
+      location: '',
+      description: `
+        <ul>
+          <li><strong>Leading the end-to-end development of an AI-powered research tool</strong>, integrating Large Language Models to enhance academic research.</li>
+          <li><strong>Innovating with seamless PDF reader and audio conversion integrations</strong> to ensure accessibility and boost academic productivity.</li>
+          <li><strong>Designing advanced, context-sensitive question-answer modules</strong> and a robust peer review system for dynamic scholarly interaction.</li>
+        </ul>
+      `,
+      url: 'https://huggingface.co/spaces/Tanmay09516/Research-Companion',
+      attachments: [], 
+      id: 'ai-research-companion',
+    },
+    {
+      heading: 'Lang-Chat: LangChain Chatbot',
+      year: '2024',
+      location: '',
+      description: `
+        <ul>
+          <li><strong>Created a LangChain-based chatbot</strong> to answer questions and troubleshoot issues related to LangChain.</li>
+          <li><strong>Leveraged retrieval-augmented generation (RAG)</strong> for accurate responses, built a knowledge base by scraping LangChain’s documentation and GitHub issues.</li>
+          <li><strong>Implemented a simple and efficient interface</strong> using Gradio and JavaScript, enabling seamless user interaction.</li>
+          <li><strong>Used the project to deepen knowledge of LangChain</strong> and contribute to the developer community.</li>
+        </ul>
+      `,
+      url: 'https://langchat-ten.vercel.app/',
+      attachments: [], 
+      id: 'lang-chat',
+    }
+  ],
+},
     {
       name: 'Education',
       items: [
